@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Celestial",
+    "password": "Celestial",
+    "role": "admin"
+  },
+  {
+    "id": "2",
+    "name":"John",
+    "password":"John",
+    "role":"student"
+  },
+  {
+    "id": "3",
+    "name":"Jane",
+    "password":"Jane",
+    "role":"teacher"
+  },
+  {
+    "id": "4",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"teacher"
+  },
+  {
+    "id": "5",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  { 
+    "id": "6",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "7",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "8",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "9",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "10",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "11",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "12",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "13",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "14",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "15",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "16",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "17",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "18",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  },
+  {
+    "id": "19",
+    "name":"Jack",
+    "password":"Jack",
+    "role":"student"
+  },
+  {
+    "id": "20",
+    "name":"Jill",
+    "password":"Jill",
+    "role":"student"
+  }
+]

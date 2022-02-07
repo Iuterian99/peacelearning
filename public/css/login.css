@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #fbf2f2;
+  background: url("../images/login/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 500px;
+  background: rgba(251, 242, 242, 0.7);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 120px;
+}
+
+.form__image {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #5627da;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 49px;
+  color: #5627da;
+}
+
+input {
+  width: 400px;
+  height: 65px;
+  left: 0px;
+  top: 200px;
+  border: 2px solid #5627da;
+  box-sizing: border-box;
+  background: none;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.105em;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.105em;
+  color: #8a8686;
+}
+
+.form__submit{
+  margin-top: 55px;
+}
+.form__button {
+  width: 208px;
+  height: 65px;
+  background: #5627da;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.error{
+  color: red;
+  margin-top: 10px;
+}

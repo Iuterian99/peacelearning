@@ -1,0 +1,31 @@
+<%- include('includes/head.ejs') %>
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <form class="form" action="/login" method="post">
+      <div class="form__image">
+        <img src="./images/login/user.svg" alt="user" width="80" height="64" />
+      </div>
+      <% if (errors) { %>
+        <span class="error"><%= errors %></span>
+      <% } %>
+      <div class="form__input">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username" />
+        
+      </div>
+
+      <div class="form__input">
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" />
+       
+      </div>
+
+      <div class="form__submit">
+        <input class="form__button" type="submit" value="Login" />
+      </div>
+      
+    </form>
+  </body>
+</html>
